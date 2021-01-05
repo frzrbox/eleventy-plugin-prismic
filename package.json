@@ -1,0 +1,20 @@
+{
+  "name": "eleventy-plugin-prismic",
+  "version": "0.0.1",
+  "description": "An 11ty plugin to get up and running with Prismic",
+  "main": ".eleventy.js",
+  "files": [
+    '.eleventy.js' 
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prismic",
+    "11ty",
+    "eleventy",
+    "headless-cms"
+  ],
+  "author": "frzrbox",
+  "license": "MIT"
+}
