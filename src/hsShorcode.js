@@ -1,3 +1,5 @@
-module.exports = function (serializer) {
-	return serializer;
+const baseHtmlSerializer = require('./baseHtmlSerializer');
+
+module.exports = function (serializer = baseHtmlSerializer) {
+	console.log(serializer);
 };

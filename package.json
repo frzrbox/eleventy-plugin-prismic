@@ -12,7 +12,7 @@
 		".eleventy.js"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"dev": "npx eleventy --input=test"
 	},
 	"keywords": [
 		"prismic",
@@ -25,5 +25,9 @@
 	"peerDependencies": {
 		"@11ty/eleventy": "^0.11.0"
 	},
-	"devDependencies": {}
+	"devDependencies": {},
+	"dependencies": {
+		"prismic-dom": "^2.2.4",
+		"prismic-javascript": "^3.0.2"
+	}
 }

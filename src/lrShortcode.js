@@ -1,3 +1,5 @@
-module.exports = function (resolver) {
-	return resolver;
+const baseLinkResolver = require('./baseLinkResolver');
+
+module.exports = function (resolver = baseLinkResolver) {
+	console.log(resolver);
 };
