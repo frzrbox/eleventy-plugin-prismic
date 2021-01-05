@@ -12,7 +12,7 @@
 		".eleventy.js"
 	],
 	"scripts": {
-		"dev": "npx eleventy --input=test"
+		"dev": "npx eleventy --serve --input=test"
 	},
 	"keywords": [
 		"prismic",
