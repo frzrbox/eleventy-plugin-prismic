@@ -1,3 +1,3 @@
 module.exports = function (serializer) {
-	return console.log(serializer);
+	return serializer;
 };

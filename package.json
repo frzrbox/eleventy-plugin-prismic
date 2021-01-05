@@ -2,6 +2,11 @@
 	"name": "eleventy-plugin-prismic",
 	"version": "0.0.1",
 	"description": "An 11ty plugin to get up and running with Prismic",
+	"homepage": "https://github.com/frzrbox/eleventy-plugin-prismic",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/frzrbox/eleventy-plugin-prismic"
+	},
 	"main": ".eleventy.js",
 	"files": [
 		".eleventy.js"
@@ -17,5 +22,8 @@
 	],
 	"author": "frzrbox",
 	"license": "MIT",
+	"peerDependencies": {
+		"@11ty/eleventy": "^0.11.0"
+	},
 	"devDependencies": {}
 }
